@@ -1,6 +1,14 @@
+/* 
+declaration block
+
+selector{
+property: value;
+}
+*/
+
 body{
     background-color: rgb(163, 79, 184);
-    color:black;
+    color:rgb(38, 2, 35);
 }
 
 nav{
