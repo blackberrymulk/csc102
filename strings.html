@@ -1,0 +1,33 @@
+<!-- Ruby Avila -->
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="strings.css">
+    <!-- title displayed in the browser tab -->
+    <title> Secure Access Page </title>
+</head>
+<body> 
+    <!--Page heading -->
+    <h2> Secure Access Page </h2>
+        <!-- Grouping all the inputs so that they run at the same time -->
+    <form id="securityForm">
+           <!-- Input for first name -->
+        <input type="text" id="firstName" placeholder="First Name">
+           <!-- Input for last name -->
+        <input type="text" id="lastName" placeholder="Last Name">
+           <!-- Input for zipcode -->
+        <input type="text" id="zip" placeholder="Zip Code (5 digits)">
+           <!-- The submit button for the information to be sent out-->
+        <button type="submit">Submit</button>
+    </form>
+        <!-- Where error messages or warnings will appear -->
+    <div id="message"></div>
+        <!-- Where the secret message appears when validation passes -->
+    <div id="secret"></div>
+        <!-- JavaScript file which is responsible for the validation logic -->
+    <script src="strings.js"></script>
+</body>
+</html>
